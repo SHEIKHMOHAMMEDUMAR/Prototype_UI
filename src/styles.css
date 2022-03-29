@@ -11,10 +11,10 @@
     height: 100vh;
   }
   .dropdown {
-    border: 1px solid black;
+    border: 2px solid skyblue;
     width: 95px;
-    margin-top: 75px;
-    margin-left: 120px;
+    margin-top: 15px;
+    margin-left: 80px;
     position: relative;
     user-select: none;
   }
@@ -26,10 +26,13 @@
     color: #333;
     display: flex;
     align-items: left;
-    font-style: italic;
+    font-style: bold;
     cursor: pointer;
     justify-content: space-between;
     width: 85px;
+    color: skyblue;
+    font-weight: bold;
+    
   }
   .dropdown .drop-content {
     position: absolute;
@@ -55,4 +58,3 @@
   .dropdown .drop-content .dropdown-item:hover {
     background: #fcfcfc;
   }
-  
