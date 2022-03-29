@@ -1,11 +1,11 @@
 .topbar{
     display: flex;
     position: sticky;
-    top: 8px;
+    top: 10px;
     z-index: 999;
     max-width: 100%;
     max-height: 50px;
-    background-color: rgb(206, 203, 203);
+    background-color: rgb(230, 227, 227);
     align-items: center;
     justify-content: space-between;
     padding: 4px 4px;
@@ -16,4 +16,4 @@
 }
 .userName:hover{
     color: #fff;
-    }
+}
