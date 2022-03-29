@@ -1,16 +1,18 @@
-import "./styles.css";
-import { useState } from "react";
-import Drop from "./drop";
-import Sidebar from "./components/sidebar/Sidebar"
 import Topbar from "./components/topbar/Topbar"
+import Sidebar from "./components/sidebar/Sidebar"
+import Drop from "./drop";
+import "./App.css"
+import { useState } from "react";
 //import {userData} from "./data"
 
 let App=() =>{
   const [selected, setselected] = useState("");
   return (
     <div className="App">
-      <Sidebar />
-      <Topbar />
+      <div className='TS'>
+        <Topbar />
+        <Sidebar />
+      </div>
       <Drop selected={selected} setselected={setselected} />
     </div>
   );
