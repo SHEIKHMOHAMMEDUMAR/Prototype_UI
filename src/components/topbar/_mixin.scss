@@ -1,0 +1,12 @@
+@mixin top {
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    max-width: 100%;
+    max-height: 50px;
+    background-color: rgb(206, 203, 203);
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 12px;
+    
+}

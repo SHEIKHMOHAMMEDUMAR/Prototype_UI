@@ -1,0 +1,24 @@
+.featured{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featuredItem{
+    flex: 1;
+    border: 1px solid rgba(74, 74, 74, 0.37);
+    margin: 10px 10px;
+    padding: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-left: 4px;
+}
+.featuredTitle{
+    font-size: 10px;
+    margin: 10px 10px;
+}
+.featuredMoney{
+    font-size: 30px;
+    margin: 10px 10px;
+}

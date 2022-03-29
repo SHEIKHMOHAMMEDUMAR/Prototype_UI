@@ -1,24 +1,42 @@
+.icon {
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.icon, .bot, .top :hover {
+  cursor: pointer;
+}
+
+.top {
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 15px;
+  padding-top: 10px;
+}
+
+.bot {
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 15px;
+  padding-bottom: 1000px;
+}
+
+span {
+  margin: 0px -10px;
+}
+
 .sidebar {
   background-color: #0d47a1;
   max-width: 60px;
   max-height: 100%;
   display: block;
   padding: 4px 4px;
+  position: -webkit-sticky;
   position: sticky;
   top: 100px;
 }
-.icon {
-  font-size: 10px;
-  color: #fff;
-  padding: 10px 15px;
-}
-span {
-  margin: 0px -10px;
-}
-
-.icon.top {
-  padding-top: 100px;
-}
-.icon.bot {
-  padding-bottom: 100px;
-}
+/*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,22 @@
+@import './mixin';
+.icon {
+    @include iconstyle;
+}
+.icon, .bot, .top :hover{
+    cursor: pointer;
+
+}
+.top{
+    @include iconstyle;
+    padding-top: 10px;
+}
+.bot{
+    @include iconstyle;
+    padding-bottom: 1000px;
+    }
+span {
+    margin: 0px -10px;
+  }
+  .sidebar {
+   @include side
+  }

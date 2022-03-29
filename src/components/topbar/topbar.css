@@ -1,19 +1,28 @@
-.topbar{
-    display: flex;
-    position: sticky;
-    top: 8px;
-    z-index: 999;
-    max-width: 100%;
-    max-height: 50px;
-    background-color: rgb(206, 203, 203);
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 12px;
+.topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 999;
+  max-width: 100%;
+  max-height: 50px;
+  background-color: #cecbcb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 12px;
 }
-.image1{
-    max-width: 80px;
-    max-height: 60px;
+
+.image1 {
+  max-width: 80px;
+  max-height: 60px;
 }
-.userName:hover{
-    color: #fff;
-    }
+
+.userName:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=topbar.css.map */

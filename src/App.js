@@ -1,17 +1,17 @@
-import "./styles.css";
-import { useState } from "react";
 import Topbar from "./components/topbar/Topbar"
 import Sidebar from "./components/sidebar/Sidebar"
-import Drop from "./drop";
+import Home from "./pages/home/Home";
+import "./App.css";
 //import {userData} from "./data"
 
 let App=() =>{
-  const [selected, setselected] = useState("");
   return (
-    <div className="App">
+    <div>
       <Topbar />
-      <Drop selected={selected} setselected={setselected} />
-      <Sidebar />
+      <div className="container">
+        <Sidebar />
+        <Home />
+      </div>
     </div>
   );
 }

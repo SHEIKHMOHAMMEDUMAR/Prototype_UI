@@ -1,0 +1,15 @@
+@mixin side{
+    background-color: #0d47a1;
+    max-width: 60px;
+    max-height: 100%;
+    display: block;
+    padding: 4px 4px;
+    position: sticky;
+    top: 100px;
+}
+@mixin iconstyle{
+    font-size: 9px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 15px;
+}

@@ -1,7 +1,10 @@
 export const userData ={ 
-    T_App : { title: "Total Applications", data: 1.19 },
-    T_Dis : { title: "Total Disbursed", data: 350 },
-    T_Rej : { title: "Total Rejected", data: 80 },
+  featureInfo : [
+    { sub : "TOTAL", title: "Applications", data: 1.19 },
+    { sub : "TOTAL", title: "Disbursed", data: 350 },
+    { sub : "TOTAL", title: "Rejected", data: 80 }
+  ], 
+    charts : {
     P_Doc : { title: "Pending Documentation", data: 15, 
               chartData: [
                 { name: 'Jan', "Active User": 4000},
@@ -65,8 +68,9 @@ export const userData ={
                 { name: 'Nov', "Active User": 3000},
                 { name: 'Dec', "Active User": 9000}
               ]
-    },
-    LSP: { title: "LSP Disbursals / Lender", data: 25,
+    }
+  },
+    pieChart: { title: "LSP Disbursals / Lender", data: 25,
               chartData: [
                 { name: 'Jan', "Active User": 4000},
                 { name: 'Feb', "Active User": 3000},
