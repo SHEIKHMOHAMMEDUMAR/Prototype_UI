@@ -1,8 +1,13 @@
 export const userData ={ 
   featureInfo : [
-    { sub : "TOTAL", title: "Applications", data: 1.19 },
+    { sub : "TOTAL", title: "Applications", data: "1.19 L" },
     { sub : "TOTAL", title: "Disbursed", data: 350 },
     { sub : "TOTAL", title: "Rejected", data: 80 }
+  ], 
+  featureInfo1 : [
+    { sub : "TOTAL", title: "Applications", data: 1.18 },
+    { sub : "TOTAL", title: "Disbursed", data: 3500 },
+    { sub : "TOTAL", title: "Rejected", data: 800 }
   ], 
     charts : {
     P_Doc : { title: "Pending Documentation", data: 15, 

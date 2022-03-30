@@ -1,8 +1,8 @@
 import "./featureInfo.css"
 import { useState } from "react";
 
-let FeatureInfo = ({items}) => {
-  const [item] = useState(items);
+let  FeatureInfo1 = ({items}) => {
+    const [item] = useState(items);
     return (
     <div className="featured">
         {item.map((i)=>(
@@ -13,6 +13,6 @@ let FeatureInfo = ({items}) => {
         ))}
     </div>
     )
-}
 
-export default FeatureInfo;
+}
+export default FeatureInfo1;
