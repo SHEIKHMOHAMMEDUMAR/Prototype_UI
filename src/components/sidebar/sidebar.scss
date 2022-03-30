@@ -17,6 +17,10 @@
 span {
     margin: 0px -10px;
   }
-  .sidebar {
-   @include side
-  }
+.sidebar {
+@include side
+}
+.sticky{
+    position: sticky;
+    flex-grow: 1;
+}

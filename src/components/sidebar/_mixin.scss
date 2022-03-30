@@ -6,6 +6,7 @@
     padding: 4px 4px;
     position: sticky;
     top: 100px;
+    flex-grow: 1;
 }
 @mixin iconstyle{
     font-size: 9px;
