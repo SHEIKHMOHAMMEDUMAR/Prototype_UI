@@ -3,6 +3,9 @@ import "./home.css"
 import { useState } from "react";
 import {userData} from "../../data";
 import FeatureInfo from "../../components/featureInfo/FeatureInfo";
+import Chart from "../../components/chart/Chart";
+import Pyee from "../../components/pyee/Pyee";
+import LSP from "../../components/lsp/LSP";
 //import FeatureInfo1 from "../../components/featureInfo/FeatureInfo1";
 
 const options = [
@@ -28,12 +31,17 @@ const options = [
     },
   ];
 
-let Home = () => {
+const Home = () => {
     const [selected, setselected] = useState(options[0]);
     return (
         <div className="home">
             <Drop selected={selected} setselected={setselected} options={options}/>
             <FeatureInfo items = {userData.featureInfo} />
+            <Chart items={userData.charts} dataKey="Active User"/>
+            <div className="homeWidgets">
+                <Pyee items={userData.pieChart} dataKey="Active User"/>
+                <LSP items={userData.Table}/>
+            </div>
         </div>
     )
 }

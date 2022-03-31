@@ -1,4 +1,7 @@
 @import './mixin';
+.sidebar {
+    @include side
+    }
 .icon {
     @include iconstyle;
 }
@@ -6,20 +9,18 @@
     cursor: pointer;
 
 }
-.top{
+.icon .top{
     @include iconstyle;
     padding-top: 10px;
 }
-.bot{
+.icon .bot{
     @include iconstyle;
     padding-bottom: 1000px;
     }
 span {
     margin: 0px -10px;
   }
-.sidebar {
-@include side
-}
+
 .sticky{
     position: sticky;
     flex-grow: 1;

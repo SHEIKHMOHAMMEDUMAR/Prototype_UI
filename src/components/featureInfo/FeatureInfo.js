@@ -7,8 +7,8 @@ let FeatureInfo = ({items}) => {
     <div className="featured">
         {item.map((i)=>(
             <div className="featuredItem">
+                <div className="sub">{i.sub}{i.title} </div> 
                 <div className="featuredMoney">{i.data} </div>
-                <span className="sub">{i.sub} {i.title} </span>
             </div>
         ))}
     </div>

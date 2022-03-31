@@ -1,10 +1,10 @@
+import React from "react";
 import Topbar from "./components/topbar/Topbar"
 import Sidebar from "./components/sidebar/Sidebar"
 import Home from "./pages/home/Home";
 import "./App.css";
-//import {userData} from "./data"
 
-let App=() =>{
+const App=() =>{
   return (
     <div>
       <Topbar />

@@ -1,3 +1,18 @@
+span {
+  margin: 0px -15px;
+}
+
+.sidebar {
+  background-color: #0d47a1;
+  max-width: 60px;
+  max-height: 100%;
+  display: block;
+  padding: 4px 4px;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 .icon {
   font-size: 9px;
   font-weight: bold;
@@ -9,7 +24,7 @@
   cursor: pointer;
 }
 
-.top {
+.icon .top {
   font-size: 9px;
   font-weight: bold;
   color: #fff;
@@ -17,7 +32,7 @@
   padding-top: 10px;
 }
 
-.bot {
+.icon .bot {
   font-size: 9px;
   font-weight: bold;
   color: #fff;
@@ -29,14 +44,11 @@ span {
   margin: 0px -10px;
 }
 
-.sidebar {
-  background-color: #0d47a1;
-  max-width: 60px;
-  max-height: 100%;
-  display: block;
-  padding: 4px 4px;
+.sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 100px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=sidebar.css.map */

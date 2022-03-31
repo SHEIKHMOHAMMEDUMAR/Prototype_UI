@@ -11,14 +11,16 @@
     border-radius: 10px;
     cursor: pointer;
     display: block;
-    text-align: center;
     margin-left: 4px;
 }
-.featuredTitle{
-    font-size: 10px;
+.sub{
+    font-size: 20px;
     margin: 10px 10px;
+    text-align: center;
 }
 .featuredMoney{
-    font-size: 30px;
+    line-height: 30px;
+    font-size: 40px;
     margin: 10px 10px;
+    text-align: center;
 }
